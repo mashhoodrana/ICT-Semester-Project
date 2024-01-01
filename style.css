@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+ul {
+    padding: 9px;
+    background-color: #04ADBC;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    color: #0db6f8;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar .fb{ 
+    justify-content: center;  
+    align-items: center;
+    height: 23px;
+    width: 23px;
+    display: flex;
+    background-color: white;
+    background-size: cover;
+    border-radius: 40%;
+    margin-right: 50px;
+}
+
+.navbar .insta{ 
+    justify-content: center;  
+    align-items: center;
+    height: 23px;
+    width: 23px;
+    display: flex;
+    background-color: white;
+    border-radius: 40%;
+    margin-right: 50px;
+}
+
+.navbar .x{ 
+    justify-content: center;  
+    align-items: center;
+    height: 23px;
+    width: 23px;
+    display: flex;
+    background-color: white;
+    border-radius: 40%;
+    margin-right: 50px;
+}
+
+.navbar .linkedin{ 
+    justify-content: center;  
+    align-items: center;
+    height: 23px;
+    width: 23px;
+    display: flex;
+    background-color: white;
+    border-radius: 40%;
+    margin-right: 50px;
+}
+
+.navbar .fb:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #05668D;
+}
+
+.navbar .insta:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #05668D;
+}
+
+.navbar .x:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #05668D;
+}
+
+.navbar .linkedin:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #05668D;
+}
+
+.img{
+    padding-left: 30px;
+    display: flex;
+}
+
+.img .logo{
+    background-size: none;
+    position: relative;
+    top: 22px;
+}
+
+.img .flag{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-left: 5px;
+    position: relative;
+    top: 32px;
+
+}
+
+.img .flag2{
+    background-size: none;
+    background-color: none;
+    display: flex;
+    width: 70px;
+    height: 68px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-left: 45px;
+    position: relative;
+    top: 28px;
+}
+
+.heading{
+    background-image: url(https://pk.maarifschool.org/uploads/banner/list/16476d8fc444cc.webp);
+    background-size: cover;
+    height: 250px;
+    color: #04ADBC;
+    padding-left: 95px;
+}
+
+.heading2{
+    padding: 35px;
+    margin: 25px;
+    color: #04ADBC;
+    font-size: 50px;
+
+}
+
+.photo-sec-1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.photo-sec-1 .container1{
+    margin-left: 40px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    border-radius: 5%;
+    background-image: url(Photo2.webp);
+}
+
+.photo-sec-1 .container1:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 4px 4px 4px #05668D;
+}
+
+.photo-sec-1 .container2{
+    margin-left: 25px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    border-radius: 5%;
+    background-image: url(Photo1.webp);
+    
+}
+
+.photo-sec-1 .container2:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 4px 4px 4px #05668D;
+}
+
+.photo-sec-1 .container3{
+    margin-left: 25px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    border-radius: 5%;
+    background-color: #04ADBC;
+    background-image: url(Photo\ 7......jpg);
+}
+
+.photo-sec-1 .container3:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 4px 4px 4px #05668D;
+}
+
+.photo-sec-2{
+    display: flex;
+}
+
+.photo-sec-2 .container4{
+    margin-left: 90px;
+    width: 450px;
+    height: 290px;
+    padding: 25px;
+    border-radius: 5%;
+    background-image: url(Photo\ 8..jpg);
+    position: relative;
+    top: 35px;
+}
+
+.photo-sec-2 .container4:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 4px 4px 4px #05668D;
+}
+
+.photo-sec-2 .container5{
+    margin-left: 90px;
+    width: 450px;
+    height: 290px;
+    padding: 25px;
+    border-radius: 5%;
+    background-image: url(Photo\ 4.jpg);
+    position: relative;
+    top: 35px;
+}
+
+.photo-sec-2 .container5:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 4px 4px 4px #05668D;
+}
+
+
+.info{
+    width: 1279px;
+    height: 150px;
+    padding: 35px;
+    display: grid;
+    background-color: #04ADBC; 
+    justify-content: left;
+    align-items: center;
+}
+
+.info .Lang{
+    font-size: 20px;
+}
+
+.info .address{
+    font-size: 20px;
+}
+
+.info .Lang{
+    font-size: 20px;
+}
+
+.info .Ph{
+    font-size: 20px;
+}
+
+.tag{
+    position: relative;
+    top: 80px;
+    height: 200px;
+    width: 1349px;
+    display: flex;
+    background-color: #fda90e;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag .inner{
+    height: 150px;
+    width: 750px;
+    padding-left: 20px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.4);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+h4{
+    width: 432px;
+    height: 53px;
+    font-size: 40px;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h4 .youtube{
+    color: red;
+}
+
+.table2{
+    display: flex;
+    padding-left: 10px;
+    /* background-color: white; */
+ }
+
+
+ .youtube:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    box-shadow: 5px 5px 5px #e20909;
+    border: 30%;
+ }
+
+ .text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    top: 8px;
+    padding-left: 40px;
+ }
+
+.ftr-1{
+    height: 500px;
+    width: 1348px;
+    position: relative;
+    top: 150px;
+    display: flex;
+    background-color: black;
+}
+
+.block1{
+    position: relative;
+    top: 180px;
+    margin-left: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.about{
+    padding: 20px;
+    color: #04ADBC;
+    position: relative;
+    top: 35px;
+    font-size: 22px;
+}
+
+ol{
+    padding: 20px;
+    position: relative;
+    bottom: 15px;
+    color: aliceblue;
+    position: relative;
+    top: 10px;
+}
+
+.text-1:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    color: #0db6f8;
+}
+
+.block2{
+    position: relative;
+    top: 180px;
+    margin-left: 25px;
+    height: 300px;
+    width: 300px;
+}
+
+.block2 .about2{
+    padding: 20px;
+    color: #04ADBC;
+    position: relative;
+    top: 35px;
+    font-size: 22px;
+}
+
+
+.block3{
+    position: relative;
+    top: 180px;
+    margin-left: 25px;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.logo-1{
+    height: 130px;
+    width: 130px;
+    position: relative;
+    left: 610px;
+    margin-top: 50px;
+}
+
+.logo-1:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
